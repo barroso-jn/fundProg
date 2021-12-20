@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="59003955"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-07 10:05:17 "/>
+        <attribute name="created" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMDg6NTM6NDUgIjsyNDYx"/>
+        <attribute name="edited" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MDU6MTcgIjsxOzI1NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="1==1">
+                <then>
+                    <output expression="&quot;N&#218;MERO DE TELEFONE&quot;" newline="False"/>
+                    <declare name="TELEFONE" type="Integer" array="False" size=""/>
+                    <input variable="TELEFONE"/>
+                    <while expression="TELEFONE &lt; 9">
+                        <output expression="&quot;DIGITE NOVAMENTE&quot;" newline="True"/>
+                        <input variable="TELEFONE"/>
+                    </while>
+                    <output expression="&quot;FAZER CHAMADA&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#195;O &#201; POSSIVEL FAZER A CHAMADA&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="59003955"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-07 10:33:37 "/>
+        <attribute name="created" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MzE6MDggIjsyNDQ5"/>
+        <attribute name="edited" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MzM6MzcgIjsxOzI1NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM" type="Integer" array="False" size=""/>
+            <output expression="&quot;INTRODUZA UM N&#218;MERO&quot;" newline="True"/>
+            <input variable="NUM"/>
+            <output expression="&quot;O DOBRO DE &quot; &amp; NUM &amp; &quot; &#201;: &quot; &amp; NUM*2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

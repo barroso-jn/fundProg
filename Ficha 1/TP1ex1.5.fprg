@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="59003955"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-07 10:51:01 "/>
+        <attribute name="created" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MzM6NDAgIjsyNDQ3"/>
+        <attribute name="edited" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6NTE6MDEgIjsyOzI1NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM1" type="Integer" array="False" size=""/>
+            <declare name="NUM2" type="Integer" array="False" size=""/>
+            <output expression="&quot;INSIRA N&#218;MERO 1: &quot;" newline="True"/>
+            <input variable="NUM1"/>
+            <output expression="&quot;INSIRA N&#218;MERO 2: &quot;" newline="True"/>
+            <input variable="NUM2"/>
+            <if expression="NUM1 &gt; NUM2">
+                <then>
+                    <output expression="&quot;NUMERO 1 &quot; &amp; NUM1 &amp; &quot; &#201; MAIOR QUE NUMERO 2 &quot; &amp; NUM2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="NUM1 &lt; NUM2">
+                        <then>
+                            <output expression="&quot;NUMERO 2 &quot; &amp; NUM2 &amp; &quot; &#201; MAIOR QUE NUMERO 1 &quot; &amp; NUM1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;NUMERO 1 &quot; &amp; NUM1 &amp; &quot; &#201; IGUAL AO NUMERO 2 &quot; &amp; NUM2" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

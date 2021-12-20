@@ -1,0 +1,34 @@
+INICIO
+    tipo_analise
+    valor
+
+
+    ESCREVER "Escolha o tipo de análise"
+    LER tipo_analise
+
+    ESCREVER "Qual é o valor?"
+    LER valor
+
+    CASO tipo_analise SEJA 
+        "O" FAZER
+        SE valor < 300 ENTAO    
+            ESCREVER "Dentro dos valores aconselhados"
+        SENAO 
+            ESCREVER "Valor fora dos limites"
+        FIM SE
+
+        "CO2" FAZER
+        SE valor > 150 ENTAO    
+            ESCREVER "Dentro dos valores aconselhados"
+        SENAO 
+            ESCREVER "Valor fora dos limites"
+        FIM SE
+
+
+        "H" FAZER    
+        SE valor < 90 E valor > 35 ENTAO    
+            ESCREVER "Dentro dos valores aconselhados"
+        SENAO 
+            ESCREVER "Valor fora dos limites"
+        FIM SE
+

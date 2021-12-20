@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="59003955"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-07 10:31:03 "/>
+        <attribute name="created" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6Mjg6NTkgIjsyNDYx"/>
+        <attribute name="edited" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MzE6MDMgIjsxOzI1NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM" type="Integer" array="False" size=""/>
+            <output expression="&quot;DIGITE UM N&#218;MERO&quot;" newline="True"/>
+            <input variable="NUM"/>
+            <output expression="&quot;O SEU N&#218;MERO &#201;: &quot; &amp; NUM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

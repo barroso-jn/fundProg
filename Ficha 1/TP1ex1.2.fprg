@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="59003955"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-07 10:20:50 "/>
+        <attribute name="created" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MDU6MjIgIjsyNDQ2"/>
+        <attribute name="edited" value="NTkwMDM5NTU7UFQtTDVDRzEwOTBGMDQ7MjAyMS0xMC0wNzsiMTA6MjA6NTAgIjsxOzI1NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TERMOS" type="String" array="False" size=""/>
+            <output expression="&quot;TERMOS DE PESQUISA&quot;" newline="True"/>
+            <input variable="TERMOS"/>
+            <call expression="PESQUISA(TERMOS)"/>
+            <output expression="&quot;TERMOS DA PESQUISA&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
